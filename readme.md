@@ -1,22 +1,27 @@
 <p align="center"><img src="readmeassets/logo.png" width="200px" ></p>
 
-### taskSphere is an application to add all your task so that you never forget one
 
-- Add various types of task in your day to day life
+### FilmFlare is a one stop place to add all your movies
+- Add Various Movies along with their cast
 - Create an account to get started now!
 
 ### Features
+- You can add an Movie, Actors and Producers and can then link them
+- A movie can have only one producer and atleast one actor
+- You can edit the movie anytimed
 
-- You can add a task of specific type
-- A task can be personal/Professiona , important/not, repeat once/Daily
-- with the help of the filters present on the screen, one can also filter taks to view
-- One can edit/delete his task anytime
-- Once the task is completed it will be tagged completed (else upcoming)
 
-### Upcoming Features
+### Highlights
 
-- Reminders and notifications of tasks upcoming very soon
+- well structured, readable, and maintainable code
+- Responsive design principles are implemented to fit in all devices
+- All edge cases are perfectly handled in the logic
+- Pagination is implemented to handle large data
 
+### NOTE:
+- You can use my login to start with some movies (instead of starting from scratch)
+- email: riyaz@gmail.com
+- password- riyaz
 
 ## A sneak peek into what we have here!
 
@@ -35,10 +40,6 @@ Visit my website at: https://task-sphere.vercel.app/
 <img src="readmeassets/movie_view.png" width="500px" >
 
 ### Login Page - Desktop
-
-<img src="readmeassets/login.png" width="500px" >
-
-### Register Page - Desktop
 
 <img src="readmeassets/register.png" width="500px" >
 
@@ -70,10 +71,10 @@ Visit my website at: https://task-sphere.vercel.app/
   <br/>
 
 
-- Download and extract the github repositor
+- Download and extract the github repository
 <br/>
 
-- Open the project (taskSphere-main) using VS Code
+- Open the project (FilmFlare-main) using VS Code
   <br/>
 
 - Open a new terminal and enter `cd frontend` to navigate to the front end of the project
