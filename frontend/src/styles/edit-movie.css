@@ -1,0 +1,59 @@
+.edit__main{
+    display: flex;
+    justify-content: center;  
+    margin-top: 20px;
+}
+
+.edit__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F0F0F0; 
+    padding: 50px 100px 50px 100px ;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.edit__container h2{
+    margin-bottom: 2rem;
+}
+
+.edit__container input,.edit__container textarea{
+    width:100%;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.edit__container input:focus,.edit__container textarea:focus,.edit__container select:focus{
+    outline: none;
+}
+
+.edit__{
+    width: 100%;
+    background: #5F69C7 ;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    
+}
+
+
+
+@media (max-width: 600px){
+
+    .edit__container{
+        padding: 20px 10px 20px 10px ;
+    }
+    .edit__container h2{
+        font-size: 1.5rem;
+    }
+    .edit__container input,.edit__container textarea,.edit__container select{
+        font-size: 0.8rem;
+        padding: 0.5rem;
+    }
+    .edit__{
+        padding: 5px;       
+    }
+}

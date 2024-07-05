@@ -1,0 +1,29 @@
+.cast__main__div{
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+}
+
+.cast__main__div:hover{
+    color: #f5c518;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-item {
+    margin: 0 5px;
+}
+
+@media (max-width: 768px){
+    .cast__main__div{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

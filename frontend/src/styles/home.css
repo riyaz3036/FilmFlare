@@ -1,0 +1,69 @@
+.my__home{ 
+    padding: 20px;
+    width:100%;
+    background-color: #000000;
+}
+
+.home__title{
+    font-size: 30px;
+    color: #fff;
+}
+
+
+/* Hero Section */
+.hero__content h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.highlight__text{
+    color: #f5c518;
+}
+
+.hero__content p{
+    font-size: 1.1rem;
+    color: #fff;
+    line-height: 2rem;
+}
+
+.hero__img-box img{
+width: 100%;
+height: 350px;
+border-radius: 20px;
+object-fit: cover;
+}
+
+.hero__content{
+    padding-top: 3.5rem;
+}
+
+.hero__img-box{
+    padding-top: 2rem;
+}
+
+
+/* No Login */
+.no__login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no__login h5{
+    color: #6e7074;
+}
+
+
+
+
+@media (max-width: 768px){
+    .hero__img-box img{
+        width: 100%;
+        height: 350px;
+        border-radius: 20px;
+        object-fit: contain;
+    }
+}

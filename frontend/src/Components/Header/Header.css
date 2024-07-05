@@ -1,0 +1,33 @@
+/* Header for Desktop */
+.header__desk{
+    background-color: #000000;
+    border-bottom: 1px solid #B8B8B8;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_main img{
+   height: 40px;
+}
+
+.header__title{
+    font-size: 32px;
+    line-height: 40px;
+    color: #f5c518;
+}
+
+.header__right{
+   border: 3px solid #fff;
+   height: 40px;
+   width: 40px;
+   border-radius: 20px;
+}
+
+.header__right i{
+   font-size: 26px;
+   color: #fff;
+}
+
+
+
